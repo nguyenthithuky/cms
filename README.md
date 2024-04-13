@@ -6,3 +6,7 @@ php 5.6.3
 - include header to file index.php
 - navigation and include 
 - sidebar 
+## 89 insert data in to categories table and display it 
+- query into database 
+- display data to UI 
+

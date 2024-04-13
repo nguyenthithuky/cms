@@ -15,7 +15,7 @@ $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
 // Kiểm tra xem kết nối có thành công hay không
 if ($connection) {
-    echo "Connected successfully!";
+    // print( "Connected successfully!");
 } else {
     // In ra thông báo lỗi nếu có
     echo "Connection error: " . mysqli_connect_error();
