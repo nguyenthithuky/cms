@@ -9,4 +9,5 @@ php 5.6.3
 ## 89 insert data in to categories table and display it 
 - query into database 
 - display data to UI 
+1
 
