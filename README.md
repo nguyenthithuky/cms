@@ -16,3 +16,5 @@ post_comment_count int  11
 post_status  varchar 255  default [draft,pulish]
 ## 91 post comment count update with count must be int not varchar
 
+## 93 handle image 
+img src images/ tên của ảnh . 
