@@ -6,9 +6,11 @@ $db['db_password'] = "";
 $db['db_name'] = "cms";
 
 // Định nghĩa các hằng số từ mảng $db
-foreach ($db as $key => $value) {
-    define(strtoupper($key), $value);
-}
+
+if (!defined('DB_HOST')) define('DB_HOST', 'localhost');
+if (!defined('DB_USER')) define('DB_USER', 'root');
+if (!defined('DB_PASSWORD')) define('DB_PASSWORD', '');
+if (!defined('DB_NAME')) define('DB_NAME', 'cms');
 
 // Kết nối đến cơ sở dữ liệu
 $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
