@@ -52,3 +52,13 @@ die("ERROR SEARCH".mysqli_error($connect))
      echo "<h1>have Result  </h1>"
  }
  ## bài 96 done 
+ ## 97  mới xem xong video chưa làm code 
+ query dữ liệu trong database và hiển thị ra màn hình 
+ $query "SELECT * FROM categories limit 3"// change 3 
+ $select_all_categories = mysqli_query($connection , $query);
+ white($row = msqli_fetch_assoc($select_all_categories)){
+  $cat_title =$row['cat_title'];
+  echo "<li><a href="#"> {$cat_title}</a></li>"
+ }
+ - handle router/cms tạo 1 component widget dùng để hiển thị widget 
+ - cần giới hần số lượng category tải về  $query "SELECT * FROM categories limit 3"
