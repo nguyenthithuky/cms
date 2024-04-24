@@ -52,7 +52,7 @@ die("ERROR SEARCH".mysqli_error($connect))
      echo "<h1>have Result  </h1>"
  }
  ## bài 96 done 
- ## 97  mới xem xong video chưa làm code 
+ ## 97 done code 
  query dữ liệu trong database và hiển thị ra màn hình 
  $query "SELECT * FROM categories limit 3"// change 3 
  $select_all_categories = mysqli_query($connection , $query);
@@ -62,3 +62,23 @@ die("ERROR SEARCH".mysqli_error($connect))
  }
  - handle router/cms tạo 1 component widget dùng để hiển thị widget 
  - cần giới hần số lượng category tải về  $query "SELECT * FROM categories limit 3"
+ 
+ ## 98  kết thúc nhưng chưa làm 
+ trong cms/home thì cần thêm router để chuyển trang nhanh sang home 
+ - <li> <a href="admin"></a></li>
+ - sau khi có giao diện rồi (FE cắt giao diện ) 
+ - làm chức năng cho nó khi vào router cms/admin thì trình duyệt sẽ tìm file index.php 
+ file php cần tách thành các file nhỏ hơn ---> cần taoj folder includes 
+ - header.php---> copy html include <body> why ??
+
+ - footer.php không có 
+ - navigation  
+
+ ## 99 
+ change ui 
+ 1. taooj post có view all and add
+ tạo dropdown - view all post and add post 
+ delete Chart ,table foerm
+ Id : dropdown , posts_dropdown
+ 2. 
+
